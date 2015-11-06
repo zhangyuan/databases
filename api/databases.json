@@ -1,0 +1,12 @@
+[
+  {
+    "name" : "MapDB",
+    "url" : "https://github.com/jankotek/mapdb",
+    "description" : "MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine." 
+  },
+  {
+    "name" : "PalDB",
+    "url" : "https://github.com/linkedin/PalDB",
+    "description" : "An embeddable write-once key-value store written in Java."
+  }
+]
