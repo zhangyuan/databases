@@ -60,7 +60,7 @@ var DataList = React.createClass({
     var dataNodes = this.props.data.map(function(item){
       return (
         <div className="dataNode">
-          <a href={item.url}>{item.name}</a>
+          <header><a href={item.url}>{item.name}</a></header>
           <div className="dataDescription">{item.description}</div>
         </div>
       );
