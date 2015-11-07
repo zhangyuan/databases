@@ -46,9 +46,12 @@ var SearchForm = React.createClass({
   render: function() {
     return (
       <form className="searchForm">
-        <input type="text" placeholder="Search*" onChange={this.onChange} />
+        <input type="text" placeholder="Search*" ref="queryInput" onChange={this.onChange} />
       </form>
     );
+  },
+  componentDidMount: function(){
+    React.findDOMNode(this.refs.queryInput).focus(); 
   },
   onChange: function(value){
     this.props.onSearch(value.target.value);
