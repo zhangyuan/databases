@@ -3,6 +3,7 @@ body {
   line-height: 25px;
   font-family: "skolar","Georgia","Times New Roman",serif;
   color: #212121;
+  word-wrap: break-word;
 }
 
 input:focus {
@@ -11,7 +12,7 @@ input:focus {
 }
 
 .pageHeader h1 {
-  margin: 40px 20px;
+  margin: 40px 20px 20px 20px;
   color: #F44336;
 }
 
@@ -65,12 +66,8 @@ input:focus {
   color: #FF5722;
 }
 
-.dataList .dataNode header a:hover, .dataList .dataNode header a:visited, .dataList .dataNode header a {
-  text-decoration: none;
-  color: #FF5722;
-}
-
 .dataList .dataNode a:hover, .dataList .dataNode a:visited, .dataList .dataNode a {
   text-decoration: none;
   color: #F57C00;
+
 }
