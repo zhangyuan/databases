@@ -1,0 +1,36 @@
+body {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dataBox {
+  text-align: center;
+}
+
+.searchForm input {
+  border: none;
+  border-bottom: 1px solid #DDD;
+  text-align: center;
+  padding: 5px;
+}
+
+.dataList .dataNode {
+  margin: 1em;
+  border: 1px solid #DDD;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.dataList .dataNode header {
+  font-size: 1.2em;
+  margin: 0.4em auto;
+}
+
+.dataList .dataNode a:hover, .dataList .dataNode a:visited, .dataList .dataNode a {
+  text-decoration: none;
+  color: #0078bf;  
+}

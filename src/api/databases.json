@@ -1,0 +1,62 @@
+[
+  {
+    "name" : "MapDB",
+    "url" : "https://github.com/jankotek/mapdb",
+    "description" : "MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine." 
+  },
+  {
+    "name" : "PalDB",
+    "url" : "https://github.com/linkedin/PalDB",
+    "description" : "An embeddable write-once key-value store written in Java."
+  },
+  {
+    "name" : "TiDB",
+    "url" : "https://github.com/pingcap/tidb",
+    "description" : "TiDB is a distributed SQL database compatible with MySQL protocol."
+  },
+  {
+    "name" : "SequoiaDB",
+    "url" : "https://github.com/SequoiaDB/SequoiaDB",
+    "description" : "SequoiaDB is a document-oriented NoSQL Database."
+  },
+  {
+    "name" : "PipelineDB",
+    "url" : "https://github.com/pipelinedb/pipelinedb",
+    "description": "The Streaming SQL Database."
+  },
+  {
+    "name" : "lowdb",
+    "url" : "https://github.com/typicode/lowdb",
+    "description" : "Flat JSON file database."
+  },
+  {
+    "name" : "Titan",
+    "url" : "https://github.com/thinkaurelius/titan",
+    "description" : "Distributed Graph Database."
+  },
+  {
+    "name" : "PouchDB",
+    "url" : "https://github.com/pouchdb/pouchdb",
+    "description" : "PouchDB is a pocket-sized database."
+  },
+  {
+    "name" : "FlockDB",
+    "url" : "https://github.com/twitter/flockdb",
+    "description" : "A distributed, fault-tolerant graph database."
+  },
+  {
+    "name" : "LevelDB",
+    "url" : "https://github.com/google/leveldb",
+    "description" : "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values."
+  },
+  {
+    "name" : "ledisdb",
+    "url" : "https://github.com/siddontang/ledisdb",
+    "description" : "a high performance NoSQL powered by Go."
+  },
+  {
+    "name" : "influxdb",
+    "url" : "https://github.com/influxdb/influxdb",
+    "description" : "Scalable datastore for metrics, events, and real-time analytics."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "databases",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zhangyuan/databases.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangyuan/databases/issues"
+  },
+  "homepage": "https://github.com/zhangyuan/databases",
+  "devDependencies": {
+    "gulp-html-replace": "^1.5.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-uglify": "^1.4.2",
+    "gulp-babel": "^6.1.0",
+    "gulp-connect": "^2.2.0"
+  }
+}
