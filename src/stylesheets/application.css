@@ -1,36 +1,76 @@
 body {
   font-size: 18px;
   line-height: 25px;
+  font-family: "skolar","Georgia","Times New Roman",serif;
+  color: #212121;
+}
+
+input:focus {
+  outline: 0;
+  color: #FF5722;
 }
 
 h1 {
-  text-align: center;
+  margin: 40px 20px;
+  color: #F44336;
 }
 
 .dataBox {
-  text-align: center;
+  margin: 1em auto;
 }
 
+.searchForm {
+  margin: 20px;
+}
 .searchForm input {
+  display: inline-block;
   border: none;
+  width: 100%;
+  font-size: 1.4em;
+  padding: 20px 0;
   border-bottom: 1px solid #DDD;
-  text-align: center;
-  padding: 5px;
 }
 
 .dataList .dataNode {
-  margin: 1em;
-  border: 1px solid #DDD;
+  margin: auto 20px;
+  border: 1px solid #FFC107;
+  border-bottom: none;
   padding: 1em;
-  border-radius: 5px;
+  background-color: #FFECB3;
+}
+
+.dataList .dataNode:last-child {
+  border-bottom: 1px solid #FFC107;
 }
 
 .dataList .dataNode header {
   font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.dataList .dataNode header .index {
+  display: inline-block;
+  float: right;
+  color: #607D8B;
+  font-size: 0,8em;
+  font-weight: normal;
+}
+
+.dataList .dataNode .dataDescription {
+  color: #727272;
   margin: 0.4em auto;
+}
+.dataList .dataNode header a:hover, .dataList .dataNode header a:visited, .dataList .dataNode header a {
+  text-decoration: none;
+  color: #FF5722;
+}
+
+.dataList .dataNode header a:hover, .dataList .dataNode header a:visited, .dataList .dataNode header a {
+  text-decoration: none;
+  color: #FF5722;
 }
 
 .dataList .dataNode a:hover, .dataList .dataNode a:visited, .dataList .dataNode a {
   text-decoration: none;
-  color: #0078bf;  
+  color: #F57C00;
 }

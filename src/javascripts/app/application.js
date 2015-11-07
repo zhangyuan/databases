@@ -46,7 +46,7 @@ var SearchForm = React.createClass({
   render: function() {
     return (
       <form className="searchForm">
-        <input type="text" placeholder="Keywords" onChange={this.onChange} />
+        <input type="text" placeholder="Search*" onChange={this.onChange} />
       </form>
     );
   },
@@ -57,12 +57,18 @@ var SearchForm = React.createClass({
 
 var DataList = React.createClass({
   render: function() {
-    var dataNodes = this.props.data.map(function(item){
+    var dataNodes = this.props.data.map(function(item, index){
       return (
-        <div className="dataNode">
-          <header><a href={item.url}>{item.name}</a></header>
+        <section className="dataNode">
+          <header>
+            <a href={item.url}>{item.name}</a>
+            <span className="index">#{index + 1}</span>
+          </header>
+          <div>
+            <a className="url" href={item.url}>{item.url}</a>
+          </div>
           <div className="dataDescription">{item.description}</div>
-        </div>
+        </section>
       );
     });
 
