@@ -10,7 +10,7 @@ input:focus {
   color: #FF5722;
 }
 
-h1 {
+.pageHeader h1 {
   margin: 40px 20px;
   color: #F44336;
 }
