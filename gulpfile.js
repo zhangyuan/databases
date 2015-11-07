@@ -4,6 +4,7 @@ var gulp = require("gulp"),
   uglify = require('gulp-uglify'),
   minifyCss = require('gulp-minify-css'),
   babel = require('gulp-babel'),
+  shell = require('gulp-shell'),
   htmlreplace = require('gulp-html-replace');
 
 gulp.task('develop', function(){
@@ -58,3 +59,9 @@ gulp.task('api', function(){
 });
 
 gulp.task('default', ['html', 'js', 'css', 'jsLibs', 'api']);
+
+gulp.task('publish', ['default'], shell.task([
+  'git add . -A',
+  "git commit -m 'publish'",
+  'git push origin gh-pages'
+]))
