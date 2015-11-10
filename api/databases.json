@@ -58,5 +58,10 @@
     "name" : "influxdb",
     "url" : "https://github.com/influxdb/influxdb",
     "description" : "Scalable datastore for metrics, events, and real-time analytics."
+  },
+  {
+    "name" : "ArangoDB",
+    "url" : "https://github.com/arangodb/arangodb",
+    "description" : "ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
   }
 ]
