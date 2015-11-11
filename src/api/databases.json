@@ -63,5 +63,10 @@
     "name" : "ArangoDB",
     "url" : "https://github.com/arangodb/arangodb",
     "description" : "ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
+  },
+  {
+    "name" : "RethinkDB",
+    "url" : "https://github.com/rethinkdb/rethinkdb",
+    "description" : "The open-source database for the realtime web."
   }
 ]
