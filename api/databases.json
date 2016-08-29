@@ -68,5 +68,10 @@
     "name" : "RethinkDB",
     "url" : "https://github.com/rethinkdb/rethinkdb",
     "description" : "The open-source database for the realtime web."
+  },
+  {
+    "name" : "EventQL",
+    "url" : "https://github.com/eventql/eventql",
+    "description" : "EventQL is a distributed, column-oriented database built for large-scale event collection and analytics. It runs super-fast SQL and JavaScript queries."
   }
 ]
